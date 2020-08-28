@@ -1,0 +1,567 @@
+:root {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fdfdfd;
+}
+
+p {
+  line-height: 2.25rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primary-span {
+  color: #407bff;
+}
+
+.secondary-span {
+  color: #3363cc;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 80vh;
+  padding: 3rem;
+}
+
+.section-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  padding: 10rem 0rem 2rem 0rem;
+  color: #465880;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background: #edf2ff;
+}
+
+.logo h1 {
+  color: #465880;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links a {
+  color: #465880;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.burger {
+  display: none;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #465880;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+
+/* Hero */
+#hero .hero-intro .hero-text {
+  padding-bottom: 3rem;
+}
+
+#hero .hero-intro .hero-text h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #465880;
+}
+
+#hero .hero-intro .hero-links {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+#hero .hero-intro .hero-links ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#hero .hero-intro .hero-links ul li {
+  padding-right: 2rem;
+}
+
+#hero .hero-intro .hero-links ul li a {
+  font-size: 3rem;
+}
+
+#hero .hero-intro .hero-cta {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+#hero .hero-intro .hero-cta a {
+  background: transparent;
+  color: #407bff;
+  border: 3px solid #407bff;
+  padding: 2rem 4rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+#hero .hero-cover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+/* Skills */
+#skills .skill {
+  background: #edf2ff;
+  border: 3px solid #3363cc;
+  border-radius: 10px;
+  width: 20vw;
+  min-height: 30vh;
+  text-align: center;
+}
+
+#skills .skill-img {
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+#skills .skill-text {
+  padding: 2rem;
+}
+
+#skills .skill-text h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+#skills .skill-text p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #465880;
+}
+
+/* Projects */
+#projects .projects {
+  min-height: 150vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#projects .project {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 60vw;
+  min-height: 30vh;
+}
+
+#projects .project-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#projects .project-img img {
+  height: 30vh;
+  border-left: 20px;
+  border-bottom: 20px;
+  border-right: 0px;
+  border-top: 0px;
+  border-style: double;
+  border-color: #c6d6ff;
+}
+
+#projects .project .project-info {
+  color: #465880;
+  padding: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#projects .project .project-info .project-text {
+  padding-bottom: 2rem;
+}
+
+#projects .project .project-info .project-text h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+#projects .project .project-info .project-text h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+#projects .project .project-info .project-text p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+#projects .project .project-info .project-buttons {
+  display: flex;
+  align-items: center;
+}
+
+#projects .project .project-info .project-buttons .project-details {
+  background: transparent;
+  color: #465880;
+  border: 1px solid #465880;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+#projects .project .project-info .project-buttons .other-projects {
+  background: transparent;
+  color: #465880;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* About */
+#about {
+  background: #edf2ff;
+}
+
+#about .about-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .about-img img {
+  max-height: 60vh;
+  border-left: 20px;
+  border-bottom: 20px;
+  border-right: 0px;
+  border-top: 0px;
+  border-style: solid;
+  border-color: #3363cc;
+}
+
+#about .about-info {
+  margin-left: 2rem;
+  max-width: 50vw;
+  color: #465880;
+}
+
+#about .about-info .about-text {
+  padding: 1rem 1rem 3rem 1rem;
+}
+
+#about .about-info .about-text h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  padding-bottom: 1rem;
+}
+
+#about .about-info .about-text p {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+#about .about-info .about-button {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+#about .about-info .about-button a {
+  background: transparent;
+  color: #3363cc;
+  border: 2px solid #3363cc;
+  padding: 2rem 4rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Contact */
+#contact .contact {
+  flex-direction: column;
+  text-align: center;
+}
+
+#contact .contact > div {
+  margin-bottom: 5rem;
+}
+
+#contact .contact > div h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  padding-bottom: 3rem;
+  color: #191919;
+}
+
+#contact .contact > div p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #465880;
+}
+
+#contact .contact-email .email-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#contact .contact-email .email-button .email-cta {
+  background: transparent;
+  color: #465880;
+  border: 1px solid #465880;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-family: "Raleway", sans-serif;
+}
+
+#contact .contact-social ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact .contact-social ul li {
+  padding: 0rem 1rem;
+}
+
+#contact .contact-social ul li a {
+  color: #465880;
+  font-size: 2.5rem;
+}
+
+/* Footer */
+footer {
+  background: #465880;
+  min-height: 8vh;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #edf2ff;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 60%;
+  }
+  .container {
+    display: block;
+    padding: 3rem;
+    margin-bottom: 5rem;
+    width: 100%;
+    min-height: 30vh;
+  }
+  #hero .hero-intro .hero-text {
+    min-height: 15vh;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  #hero .hero-intro .hero-links {
+    min-height: 10vh;
+    justify-content: center;
+  }
+  #hero .hero-intro .hero-links ul li {
+    padding: 0rem 2rem;
+  }
+  #hero .hero-intro .hero-cta {
+    min-height: 5vh;
+    justify-content: center;
+  }
+  #hero .hero-cover {
+    min-height: 45vh;
+    max-width: 90vw;
+    margin-bottom: 5rem;
+    margin: 0 auto;
+  }
+  #hero .hero-cover img {
+    height: 30vh;
+    bottom: 0;
+  }
+  #skills .skill {
+    min-height: 10vh;
+    width: 80vw;
+    margin: 2rem auto;
+  }
+  #projects .projects {
+    min-height: 30vh;
+    justify-content: space-around;
+  }
+  #projects .project {
+    flex-direction: column;
+    margin: 5rem auto;
+    max-width: 70vw;
+    margin-bottom: 2rem;
+  }
+  #projects .project-img img {
+    max-width: 70vw;
+    height: auto;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 20px;
+    border-top: 20px;
+    border-style: double;
+    border-color: #c6d6ff;
+  }
+  #projects .project .project-info {
+    margin-left: 0;
+    margin-top: 2rem;
+    max-width: 70vw;
+  }
+  #about .about-img img {
+    max-height: 33vh;
+    border-left: 20px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-top: 20px;
+    border-style: solid;
+    border-color: #3363cc;
+  }
+  #about .about-info {
+    max-width: 90vw;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .nav-links {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: #edf2ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+  .nav-links li {
+    opacity: 0;
+  }
+  .burger {
+    display: block;
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
