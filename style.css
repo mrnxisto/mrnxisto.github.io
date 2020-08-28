@@ -111,6 +111,10 @@ nav {
 }
 
 /* Hero */
+#hero .hero-intro {
+  animation: drop 1.5s ease;
+}
+
 #hero .hero-intro .hero-text {
   padding-bottom: 3rem;
 }
@@ -156,6 +160,12 @@ nav {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-family: "Raleway", sans-serif;
+  transition: background 0.25s;
+}
+
+#hero .hero-intro .hero-cta a:hover {
+  background: #407bff;
+  color: #edf2ff;
 }
 
 #hero .hero-cover {
@@ -163,6 +173,10 @@ nav {
   align-items: center;
   justify-content: center;
   min-height: 50vh;
+}
+
+#hero .hero-cover img {
+  animation: drop 3s ease;
 }
 
 /* Skills */
@@ -277,13 +291,19 @@ nav {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-family: "Raleway", sans-serif;
+  transition: background 0.25s;
+}
+
+#projects .project .project-info .project-buttons .project-details:hover {
+  background: #465880;
+  color: #edf2ff;
 }
 
 #projects .project .project-info .project-buttons .other-projects {
   background: transparent;
   color: #465880;
   padding: 1rem 2rem;
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
@@ -350,6 +370,12 @@ nav {
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-family: "Raleway", sans-serif;
+  transition: background 0.25s;
+}
+
+#about .about-info .about-button a:hover {
+  background: #3363cc;
+  color: #edf2ff;
 }
 
 /* Contact */
@@ -541,6 +567,17 @@ footer h3 {
 
 .nav-active {
   transform: translateX(0%);
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 @keyframes navLinkFade {
