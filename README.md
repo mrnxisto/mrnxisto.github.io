@@ -4,7 +4,7 @@
 
 - HTML5
 - CSS3
-  -JavaScript
+- JavaScript
 
 ## Conteúdo
 
@@ -12,3 +12,7 @@
 - Portfólio
 - Sobre mim
 - Contato
+
+## VIsite
+
+- [mrnxisto.github.io](https://mrnxisto.github.io!)
