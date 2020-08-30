@@ -13,6 +13,6 @@
 - Sobre mim
 - Contato
 
-## VIsite
+## Visite
 
 - [mrnxisto.github.io](https://mrnxisto.github.io!)
