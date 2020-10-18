@@ -8,7 +8,6 @@
 
 ## Conteúdo
 
-- Skills
 - Portfólio
 - Sobre mim
 - Contato
