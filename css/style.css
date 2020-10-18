@@ -200,6 +200,10 @@ nav {
   margin: 4rem auto;
 }
 
+.project p {
+  margin-bottom: 0.5rem;
+}
+
 .project-info {
   padding: 2rem;
   flex-basis: 50%;
