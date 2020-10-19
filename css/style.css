@@ -153,7 +153,7 @@ nav {
   left: 0;
   height: 100%;
   width: 0;
-  background: #63799c;
+  background: #374457;
   animation: text_reveal_box 1s ease;
   animation-delay: 0.5s;
 }
@@ -177,7 +177,7 @@ nav {
 }
 
 #projects h3 span {
-  color: #ccd2db;
+  color: #e0e5eb;
 }
 
 .projects-container {
@@ -249,7 +249,7 @@ nav {
   height: 100%;
   width: 100%;
   background: linear-gradient(60deg, #404b5a 0%, #202833 100%);
-  opacity: 0.5;
+  opacity: 0.45;
 }
 
 /* About */
@@ -315,7 +315,7 @@ nav {
 .about-info button:hover {
   background: #222935;
   color: #f8f9fa;
-  border: 1px solid #6d7989;
+  border: 1px solid #222935;
   cursor: pointer;
 }
 
@@ -413,7 +413,7 @@ footer p {
     opacity: 0;
   }
   .nav-links li a {
-    color: #222935;
+    color: #000;
   }
   .hamburger {
     display: block;
@@ -458,7 +458,7 @@ footer p {
 
 @keyframes text_reveal {
   100% {
-    color: #000;
+    color: #222935;
   }
 }
 
